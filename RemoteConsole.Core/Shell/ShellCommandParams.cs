@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RemoteConsole.Core.Shell
 {
-    class ShellCommandParams
+    public class ShellCommandParams
     {
         public string Client { get; set; }
         public string Command { get; set; }

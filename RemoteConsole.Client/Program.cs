@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNet.SignalR.Client;
+using RemoteConsole.Core.Shell;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,7 @@ namespace RemoteConsole.Client
             Task.Run(async () =>
             {
                 var conHub = new HubConnection("http://localhost:8080/");
-                conHub.CreateHubProxy("Shell").On<string>("cmd", (data) =>
+                conHub.CreateHubProxy("Shell").On<ShellCommandParams>("cmd", (data) =>
                 {
                 });
 
