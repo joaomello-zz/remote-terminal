@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteConsole.Server", "Rem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteConsole.Client", "RemoteConsole.Client\RemoteConsole.Client.csproj", "{062348D8-FE06-4E96-A522-4920CC71D3C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteConsole.Core", "RemoteConsole.Core\RemoteConsole.Core.csproj", "{EAA725A0-3F2F-40E6-A291-5E6416550C2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{062348D8-FE06-4E96-A522-4920CC71D3C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{062348D8-FE06-4E96-A522-4920CC71D3C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{062348D8-FE06-4E96-A522-4920CC71D3C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA725A0-3F2F-40E6-A291-5E6416550C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA725A0-3F2F-40E6-A291-5E6416550C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA725A0-3F2F-40E6-A291-5E6416550C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA725A0-3F2F-40E6-A291-5E6416550C2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
